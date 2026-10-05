@@ -1,3 +1,8 @@
+
+:root {
+    --engdepgreen: #505a24;
+}
+
 body {
     background-color: #292827;
     font-family: arial, helvetica, sans-serif;
@@ -107,7 +112,33 @@ body {
                     aside {
                         &.left-side {
                             display: block;
+                            float: left;
+                            width: 30%;
                         }
+
+                        nav{
+                            a {
+
+
+                            display: block;
+                            text-transform: uppercase;
+                            font-size: 11px;
+                            color: #505a2f;
+                            border-bottom: 2px solid #505a2f;
+                            text-decoration: none;
+                            padding: 10px 0 10px 10px;
+
+                                &:hover {
+                                background-color: #505a2f;
+                                color: white;}
+                            }
+
+                        }
+                    }
+
+                    main {
+                        float: right;
+                        width: 60%;
                     }
                 }
             }
