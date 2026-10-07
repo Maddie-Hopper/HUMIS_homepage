@@ -1,0 +1,29 @@
+/*mobile first*/
+
+
+body {
+    background-color: #282726;
+    font-family: arial, helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+
+    section.container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: space-between;
+        max-height: 780px;
+
+        header {
+            img {
+                width: 100%
+            }
+        }
+    }
+
+
+}
+
+
+
