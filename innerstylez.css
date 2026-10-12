@@ -24,9 +24,20 @@ body {
         section.middle {
             display: flex;
             flex-direction: column;
+            border: 10px solid red;
+
 
             nav.ddm {
                 display: none;
+            }
+
+            nav.minor {
+                a {
+                    color: var(--black);
+                    border-right: 1px solid black;
+
+
+                }
             }
         }
 
