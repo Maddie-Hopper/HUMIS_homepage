@@ -90,6 +90,10 @@ body {
                         &:last-of-type {
                             border-right: none;
                         }
+
+                        &.active {
+                            text-decoration: underline;
+                        }
                     }
 
                     &.top {
@@ -154,6 +158,10 @@ body {
                             &:hover {
                                 background-color: var(--engDeptGreen);
                                 color: #fff;
+                            }
+
+                            &.active {
+                                font-weight: bold;
                             }
                         }
                     }
