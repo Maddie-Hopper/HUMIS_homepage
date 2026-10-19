@@ -3,6 +3,7 @@
     --black: #000;
     --green-light: #B4B697;
     --grey-light: #F2F1F0;
+    --burgundy: #d5232a;
 }
 
 /* Mobile first */
@@ -113,6 +114,15 @@ body {
 
                 main {
                     padding: 30px;
+
+                }
+
+                h1{
+                    color: var(--burgundy);
+                }
+
+                h5{
+                    color: var(--burgundy);
                 }
             }
         }
