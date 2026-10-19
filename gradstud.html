@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>HUMIS mobile-first flexbox responsive</title>
-    <link rel="stylesheet" href="gradstud.css">
+    <link rel="stylesheet" href="inner-pages-styles.css">
     <link rel="stylesheet" href="typo.css">
     <link rel="stylesheet" href="img.css">
-
-
-
+    <link rel="stylesheet" href="layouts.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        .columns {
+            h4 {
+                color: black
+            }
+        }
+
+    </style>
+
 </head>
 <body>
 
@@ -28,11 +37,11 @@
                 <a href="about-us.html">About us</a>
                 <a href="#">Faculty & staff</a>
                 <a href="#">Undergrad students</a>
-                <a href="#">Grad students</a>
+                <a href="gradstud.html" class="active">Grad students</a>
                 <a href="#">Courses & syllabi</a>
                 <a href="#">News & annoucements</a>
                 <a href="James-L.html">Friends & alumni</a>
-                <a href="contact-us.html" class="active">Contact us</a>
+                <a href="contact-us.html"> Contact us</a>
             </nav>
 
             <div class="login">
@@ -68,41 +77,46 @@
             <nav class="minor top">
                 <a href="#">Campus director</a>
                 <a href="#">Department calendar</a>
-                <a href="contact-us.html" class="active">contact us</a>
+                <a href="contact-us.html">contact us</a>
 
                 <a href="#">
                     <img src="files/u_small.gif" alt="u_small">
                 </a>
             </nav>
 
-            <nav class="info-tab">
-                <a href="#">CONTACT INFORMATION</a>
-                |
-                <a href="#">FACULTY DIRECTORY</a>
-                |
-                <a href="#">STAFF DIRECTORY</a>
-            </nav>
-
             <main>
+                <h2>GRADUATE STUDENTS</h2>
 
-                <h1>Contact Information</h1>
+                <section class="columns">
 
-                <h4>U.S. MAIL</h4>
-                <p>University of Utah
-                    Department of History
-                    380 S 1400 E RM 211
-                    Salt Lake City, UT 84112-0311</p>
-                <h4>CAMPUS MAIL</h4>
-                <p>Department of History
-                    211 C HALL</p>
-                <h4>PHONE</h4>
-                <p>(801) 581-6121</p>
-                <h4>FAX</h4>
-                <p>(801) 585-0580</p>
-                <h4>HOURS</h4>
-                <p>Monday - Friday
-                    8:00 AM - 5:00 PM</p>
+                    <nav class="info-column">
 
+                        <h4>PROSPECTIVE STUDENTS</h4>
+
+                        <div class="links">
+                            <a href="#"> Application </a>
+                            <a href="#"> Financial Aid </a>
+                            <a href="#"> HGSA </a>
+                            <a href="#">Campus & Community </a>
+                            <a href="#">FAQ </a>
+                        </div>
+
+                    </nav>
+
+                    <div class="img-column">
+
+                        <img src="files/thoughtful.png" alt="thoughtful">
+                        <p>
+                            Thank you for your interest in the graduate program in
+                            history at the University of Utah. If you would like to apply
+                            for admission to the graduate program in History for the
+                            Fall Semester of 2006, please click here. Please note that
+                            the application deadline for the 2006-2007 academic year
+                            is <strong>January 15, 2006</strong>.
+                        </p>
+
+                    </div>
+                </section>
 
             </main>
 
