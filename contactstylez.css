@@ -3,6 +3,7 @@
     --black: #000;
     --green-light: #B4B697;
     --grey-light: #F2F1F0;
+    --burgundy: #d5232a;
 }
 
 /* Mobile first */
@@ -123,7 +124,7 @@ body {
                     gap: 10px;
 
                     a {
-                        color: red;
+                        color: var(--burgundy);
                         display: flex;
                         /*margin-top: 30px;*/
                         text-decoration: none;
@@ -150,7 +151,7 @@ body {
                         text-align: left;
 
                         h1 {
-                            color: red;
+                            color: var(--burgundy);
                         }
 
                         h4 {
@@ -235,6 +236,11 @@ body {
 
                     nav.minor {
                         justify-content: flex-end;
+                    }
+
+                    main {
+                        min-height: 500px;
+
                     }
                 }
             }

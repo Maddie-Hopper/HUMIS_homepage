@@ -3,7 +3,7 @@
     --black: #000;
     --green-light: #B4B697;
     --grey-light: #F2F1F0;
-    --burgundy: #AI2D37;
+    --burgundy: #d5232a;
 
 }
 
@@ -116,7 +116,7 @@ body {
                 main {
                     padding: 30px;
 
-                    h4{
+                    h5{
                         color: var(--burgundy);
                     }
 
@@ -191,6 +191,10 @@ body {
 
                     nav.minor {
                         justify-content: flex-end;
+                    }
+
+                    main {
+                        min-height: 500px;
                     }
                 }
             }
