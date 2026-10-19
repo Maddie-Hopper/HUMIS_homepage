@@ -1,10 +1,16 @@
 main {
     .pull {
-        border: 10px solid var(--burgundy);
+
         display: inline-block;
 
         &.right {
             float: right;
+            margin-right: 1rem;
+        }
+
+        &.left {
+            float: left;
+            margin-right: 1rem;
         }
 
     }
